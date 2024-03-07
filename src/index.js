@@ -12,7 +12,8 @@ const setupAndStartServer = async () => {
     //create the express object
     const app = express();
     // const PORT = 3000;
-
+    
+    //setup bodyparser
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({extended: true}));
 
@@ -24,3 +25,4 @@ const setupAndStartServer = async () => {
 
 // You need to explicitly call your setupAndStartServer function to start the server.
 setupAndStartServer();
+ 
