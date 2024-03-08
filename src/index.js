@@ -6,7 +6,6 @@ import bodyParser from 'body-parser';
 import { port } from './config/ServerConfig.js'; 
 
 
-
 const setupAndStartServer = async () => {
 
     //create the express object
